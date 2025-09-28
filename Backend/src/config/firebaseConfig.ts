@@ -27,5 +27,5 @@ const db = getFirestore(app);
     console.error("Firestore lỗi:", err);
   }
 })();
-
+// Initialize Firebase
 export default db;
