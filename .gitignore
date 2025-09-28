@@ -1,0 +1,15 @@
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Env
+.env
+*.env
+
+# IDE
+.vscode/
+.idea/
+
+# Specstory (logs của ChatGPT)
+.specstory/
