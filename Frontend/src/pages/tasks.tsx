@@ -5,7 +5,7 @@ import { useParams, useNavigate } from "react-router-dom";
 import "../styles/tasks.scss";
 import tasksService from "../services/tasksService";
 import { MembersModal, DetailsModal } from "../components";
-
+// khai báo kiểu Task
 interface Task {
     id?: string;
     title: string;

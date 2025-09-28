@@ -114,7 +114,7 @@ const Cards: React.FC = () => {
             alert("List with this name already exists!");
             return;
         }
-        // Add new list to state
+        // Add new list to statecdsc
         setLists(prev => [...prev, { title: trimmedTitle, cards: [] }]);
         setNewListTitle("");
         setShowAddList(false);
